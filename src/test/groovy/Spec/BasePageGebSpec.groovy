@@ -11,6 +11,7 @@ import spock.lang.Stepwise
 class BasePageGebSpec extends GebSpec {
     public String username = System.getenv("LT_USERNAME")
     public String accessKey = System.getenv("LT_ACCESS_KEY")
+    private String status="passed"
 
     /**
      * Represents the browser to be used as part of the test run.
@@ -89,6 +90,7 @@ class BasePageGebSpec extends GebSpec {
     @Override
     public void cleanup() throws Exception {
         if(!isSpecStepwise()){
+            ((JavascriptExecutor) driver).executeScript("lambda-status=" + status);
             driver.quit()
         }
     }
