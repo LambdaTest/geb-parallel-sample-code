@@ -1,4 +1,5 @@
-## Geb-Groovy-Spock-LambdaTest-Code
+# Geb Groovy Spock LambdaTest Code
+
 ![LambdaTest Logo](https://www.lambdatest.com/static/images/logo.svg)
 
 ---
