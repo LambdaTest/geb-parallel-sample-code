@@ -56,6 +56,9 @@ Please refer to the [LambdaTest Capability Generator](https://www.lambdatest.com
 ```bash
 ./run.sh
 ```
+```Windows
+mvn -Dlambdageb.capabilities=capabilities clean test
+```
 It will run the tests in your project with each of the configurations listed concurrently by configuration. i.e. all configurations will run at the same time. 
 Individual test outputs will be routed to a log file named after the configuration in the project root folder. 
 ```bash
