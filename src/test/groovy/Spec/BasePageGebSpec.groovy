@@ -6,6 +6,7 @@ import org.junit.Rule
 import org.junit.rules.TestName
 import org.openqa.selenium.remote.DesiredCapabilities
 import org.openqa.selenium.remote.RemoteWebDriver
+import org.openqa.selenium.JavascriptExecutor;
 import spock.lang.Stepwise
 
 class BasePageGebSpec extends GebSpec {

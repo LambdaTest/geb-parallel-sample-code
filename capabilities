@@ -1,0 +1,2 @@
+{"build": "GebParallelTest", "platform":  "Windows 10", "browserName": "Microsoft Edge", "version":"latest"}
+{"build": "GebParallelTest", "platform":  "Windows 10", "browserName": "Chrome", "version":"latest"}
