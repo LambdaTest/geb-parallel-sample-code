@@ -38,12 +38,15 @@ Step 3. Make sure to install the mandatory Selenium dependencies for Maven by ru
 mvn compile
 mvn versions:display-dependency-updates
 ```
-
+### Run Test with Single Configuration
+```
+$ mvn -Dlambdageb.capabilities="{\"build\": \"GebSingleTest\", \"platform\":  \"Windows 10\", \"browserName\": \"Chrome\", \"version\":\"latest\"}" clean test
+```
+   
 ### Run Parallel Test
 Use the command below from the root of the project to run your tests.
 ```
-run.sh
-mvn -Dlambdageb.capabilities=capabilities clean test
+$ run.sh
 ```
 It will run the tests in your project with each of the configurations listed concurrently by configuration. i.e. all configurations will run at the same time. 
 Individual test outputs will be routed to a log file named after the configuration in the project root folder. 
