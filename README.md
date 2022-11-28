@@ -34,7 +34,7 @@
 
 Before you can start performing Geb automation testing with Selenium, you would need to:
 
-- Install the latest **Java development environment** i.e. **JDK 1.6** or higher. We recommend using the latest version.
+- Install the latest **Java development environment** i.e. **JDK 1.8**.
 
 - Download the latest **Selenium Client** and its **WebDriver bindings** from the [official website](https://www.selenium.dev/downloads/). Latest versions of Selenium Client and WebDriver are ideal for running your automation script on LambdaTest Selenium cloud grid.
 
